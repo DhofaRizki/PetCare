@@ -17,7 +17,7 @@ class Portofolio extends BaseController
     public function show(){
         $m = new BarangModel();
 
-        return view('portofolio/barang', [
+        return view('folio/barang', [
             'data_barang' => $m->findAll()
         ]);
     }
@@ -25,7 +25,7 @@ class Portofolio extends BaseController
     public function shows(){
         $m = new DokterModel();
 
-        return view('portofolio/dokter', [
+        return view('folio/dokter', [
             'data_dokter' => $m->findAll()
         ]);
     }
@@ -33,7 +33,7 @@ class Portofolio extends BaseController
     public function showss(){
         $m = new GroomingModel();
 
-        return view('portofolio/grooming', [
+        return view('folio/grooming', [
             'data_grooming' => $m->findAll()
         ]);
     }

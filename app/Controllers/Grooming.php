@@ -19,7 +19,7 @@ class Grooming extends BaseController
           'jenishewan' => request()->getPost('jenishewan'),
           'jenispaket' => request()->getPost('jenispaket'),
           'harga' => request()->getPost('harga'),
-          'lokasi' => request()->getPost('lokasi')
+          'lokasi' => request()->getPost('lokasi'),
           
         ];
  
@@ -63,10 +63,10 @@ class Grooming extends BaseController
         }
 
     private function terimaFile($id){
-        $f = request()->getFile('foto');
-        if($f->isFile()){
+        $g = request()->getFile('foto');
+        if($g->isFile()){
             $target = WRITEPATH . '/uploads/';
-            $f->move($target, $id . '.png');
+            $g->move($target, $id . '.png');
         }
     }
     

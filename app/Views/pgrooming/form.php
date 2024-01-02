@@ -39,13 +39,13 @@
 
 <body style="background-image: url('/img/bg.jpg');">
   
-  <form method="post" action="<?=base_url('/pdokter/Save')?>">
+  <form method="post" action="<?=base_url('/pgrooming/Save')?>">
     <div class="container mt-5">
       <div class="row justify-content-center">
           <div class="col-md-6">
               <div class="card">
                 <div class="card text-white bg-secondary mb-3">
-        <h2 align="center" class="text">Pemesanan Dokter</h2>
+        <h2 align="center" class="text">Pemesanan Groming</h2>
     </div>
 
     <div align="center" class="card text-white bg-success mb-3">
@@ -54,35 +54,35 @@
                 <input type="hidden" name="id" value="<?=$data['id']?? ''?>" >
 
         <div class="form-group row">
-            <label for="nama" class="col-sm-2 col-form-label">Jenis Hewan</label>
+            <label for="nama" class="col-sm-3 col-form-label">Jenis Hewan</label>
             <div class="col-sm-6">
                 <input type="text" name="nama" value="<?=$data['nama']?? ''?>">
             </div>
         </div>
 
         <div class="form-group row">
-            <label for="namahewan" class="col-sm-2 col-form-label">Nama Hewan</label>
+            <label for="namahewan" class="col-sm-3 col-form-label">Nama Hewan</label>
             <div class="col-sm-6">
                 <input type="text" name="namahewan" value="<?=$data['namahewan']?? ''?>">
             </div>
         </div>
 
         <div class="form-group row">
-            <label for="kelamin" class="col-sm-2 col-form-label">Kelamin</label>
+            <label for="kelamin" class="col-sm-3 col-form-label">Kelamin</label>
             <div class="col-sm-6">
                 <input type="text" name="kelamin" value="<?=$data['kelamin']?? ''?>"> 
             </div>
         </div>
 
         <div class="form-group row">
-            <label for="jenispaket" class="col-sm-2 col-form-label">Jenis Paket</label>
+            <label for="jenispaket" class="col-sm-3 col-form-label">Jenis Paket</label>
             <div class="col-sm-6">
                 <input type="text" name="jenispaket" value="<?=$data['jenispaket']?? ''?>">
             </div>
         </div>
 
         <div class="form-group row">
-            <label for="harga" class="col-sm-2 col-form-label">Harga</label>
+            <label for="harga" class="col-sm-3 col-form-label">Harga</label>
             <div class="col-sm-6">
                 <input type="text" name="harga" value="<?=$data['harga']?? ''?>">
             </div>

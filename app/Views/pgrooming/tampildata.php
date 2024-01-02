@@ -45,6 +45,7 @@
     <div class="card">
       <div class="card-header">
         <a href="<?=base_url('/pgrooming/form')?>">Tambah data</a>
+        <P align="right"><a href="<?=base_url('/')?>">Home</a></P>
         <h3 align="center" class="card-title">Table Pemesanan Grooming</h3>
 
         <div align="right" class="card-tools">

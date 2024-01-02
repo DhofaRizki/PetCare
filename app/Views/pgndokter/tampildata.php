@@ -62,7 +62,7 @@
               <p><?=$baris['jadwal']?></p>
               <div class="portfolio-links">
                 <a href="<?=base_url('dkter/foto/'.$baris['id'].'.png')?>" style="width:500px" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Whiskas"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="/folio/dokter" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>

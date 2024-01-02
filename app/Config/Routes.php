@@ -74,6 +74,8 @@ $routes->get('/pgndokter/tampildata', 'Pgndokter::show');
 
 $routes->get('/pgngrooming/tampildata', 'Pgngrooming::show');
 
-$routes->get('/portofolio/barang', 'Portofolio::show');
-$routes->get('/portofolio/dokter', 'Portofolio::shows');
-$routes->get('/portofolio/grooming', 'Portofolio::showss');
+$routes->get('/folio/barang', 'Portofolio::show');
+$routes->get('/folio/dokter', 'Portofolio::shows');
+$routes->get('/folio/grooming', 'Portofolio::showss');
+
+$routes->get('/appointment/grooming', 'Pgrooming::form');
