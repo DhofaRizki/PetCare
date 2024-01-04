@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Pet Stuff</title>
+  <title>Doctor</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -48,27 +48,10 @@
         <h2>Doctor</h2>
         <p></p>
       </div>
-
-      
-
-      <?php foreach ($data_dokter as $baris):?>
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="<?=base_url('dokter/foto/'.$baris['id'].'.png')?>" style="width:500px" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4><?=$baris['nama']?></h4>
-              <p><?=$baris['jadwal']?></p>
-              <div class="portfolio-links">
-                <a href="<?=base_url('dkter/foto/'.$baris['id'].'.png')?>" style="width:500px" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Whiskas"><i class="bx bx-plus"></i></a>
-                <a href="/folio/dokter" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <?php endforeach;?>
-
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.264221350673!2d109.35053013476148!3d-0.061051412847363075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d595e0d33c927%3A0x78f2c5818fadb257!2sPraktik%20Dokter%20Hewan%20Endra%20Sulistya!5e0!3m2!1sen!2sid!4v1704263073417!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.263430551307!2d109.30092058715823!3d-0.06366010000000061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d598e280f444b%3A0x4a439d75da28d5f8!2sKlinik%20Hewan%20Purnama%20Pontianak!5e0!3m2!1sen!2sid!4v1704263269394!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.270352337067!2d109.29672498715821!3d-0.034713100000005874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d591d7d1aad49%3A0x271728e4cbb73c8f!2sKlinik%20Hewan%20Pontianak%2C%20PNK%2C%20Dokter%20Hewan%20Pontianak%2C%20drh%20Noor%20Asy%20Syifa)!5e0!3m2!1sen!2sid!4v1704263352611!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.26495197535!2d109.34475358715818!3d-0.05853800000000412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d59ef1b3ffea9%3A0x815a88207a018167!2sKlinik%20Hewan!5e0!3m2!1sen!2sid!4v1704263388336!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
     </div>

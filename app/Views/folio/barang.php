@@ -44,46 +44,10 @@
     <!-- ======= Portfolio Details Section ======= -->
     
     <section id="portfolio-details" class="portfolio-details">
-    <div class="container ">
-      <div class="row justify-content-center">
-          <div class="col-md-6">
-              <div class="card">
-                <div class="card text-white bg-secondary mb-3">
-        <div class="row gy-4">
-        <?php foreach($data_barang as $baris):?>
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="<?=base_url('barang/foto/'.$baris['id'].'.png')?>" style="width:300px" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
-          <div class="col-lg-5">
-            <div class="portfolio-info">
-              <h3><?=$baris['namabarang']?></h3>
-              <ul>
-                <li><strong>Jenis :</strong> <?=$baris['jenis']?></li>
-                <li><strong>Harga :</strong> <?=$baris['harga']?></li>
-                <li><strong>Lokasi :</strong> <?=$baris['lokasi']?></li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h4>Detail</h4>
-              <p>
-              <?=$baris['detail']?>
-              </p>
-            </div>
-          </div>
-
-        </div>
-        <?php endforeach;?>
-      </div>
+    <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28667.077059697338!2d109.29724003427434!3d-0.030510112777677293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d591c60ffa64d%3A0x31839eafd1db8fef!2sShimo%20Petshop!5e0!3m2!1sen!2sid!4v1704264027288!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28667.077059697338!2d109.29724003427434!3d-0.030510112777677293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d591be7796dbb%3A0xa10512cdafc098e6!2sToko%20Hoki%20Pet%20Shop!5e0!3m2!1sen!2sid!4v1704264322176!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     </section><!-- End Portfolio Details Section -->
     
   </main><!-- End #main -->

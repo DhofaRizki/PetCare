@@ -50,4 +50,9 @@ class Login extends BaseController
     {
       return view('signup/form');
     }
+
+    public function logout(){
+        session()->destroy();
+        return redirect()->to(base_url('login'));
+    }
 }

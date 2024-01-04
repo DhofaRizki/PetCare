@@ -206,14 +206,10 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="" class="testimonial-img" alt="">
+                <img src="/img/testimonials/me.jpg" class="testimonial-img" alt="">
                 <h3>Dhofa Rizki Alfarid</h3>
                 <h4>Ceo &amp; Founder</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
+                
               </div>
             </div><!-- End testimonial item -->
 
@@ -222,11 +218,7 @@
                 <img src="" class="testimonial-img" alt="">
                 <h3>Siti Zaskia Febriadisty</h3>
                 <h4>Designer</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
+                
               </div>
             </div><!-- End testimonial item -->
 
@@ -235,24 +227,16 @@
                 <img src="" class="testimonial-img" alt="">
                 <h3>Rian Vernendy</h3>
                 <h4>Publisher</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
+                
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="" class="testimonial-img" alt="">
+                <img src="/img/testimonials/antik.jpg" class="testimonial-img" alt="">
                 <h3>Antik Avelia Carolin</h3>
                 <h4>Marketing</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
+                
               </div>
             </div><!-- End testimonial item -->
 

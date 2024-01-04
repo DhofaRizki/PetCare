@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Personal Bootstrap Template</title>
+  <title>Map </title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -44,43 +44,9 @@
     <!-- ======= Portfolio Details Section ======= -->
     
     <section id="portfolio-details" class="portfolio-details">
-    <div class="container mt-5">
-      <div class="row justify-content-center">
-          <div class="col-md-6">
-              <div class="card">
-                <div class="card text-white bg-secondary mb-3">
-        <div class="row gy-4">
-        <?php foreach($data_grooming as $baris):?>
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="<?=base_url('grooming/foto/'.$baris['id'].'.png')?>" style="width:300px" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
-          <div class="col-lg-5">
-            <div class="portfolio-info">
-              <h3><?=$baris['jenispaket']?></h3>
-              <ul>
-                <li><strong>Jenis :</strong> <?=$baris['jenishewan']?></li>
-                <li><strong>Harga :</strong> <?=$baris['harga']?></li>
-                <li><strong>Lokasi :</strong> <?=$baris['lokasi']?></li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              
-            </div>
-          </div>
-
-        </div>
-        <?php endforeach;?>
-      </div>
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.53103816149!2d109.26839407431642!3d-0.05651009999999825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d59e3eb9ce461%3A0x7826ae0a1526baa6!2sCat%20Grooming%20Pontianak!5e0!3m2!1sen!2sid!4v1704263682885!5m2!1sen!2sid" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+    </div>
     </section><!-- End Portfolio Details Section -->
     
   </main><!-- End #main -->
